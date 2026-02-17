@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iqad</title>
+  <meta name="description" content="iqad — discord developer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=6" />
+</head>
+<body>
+
+  <canvas id="stars"></canvas>
+  <div class="noise"></div>
+
+  <!-- nav -->
+  <nav>
+    <a href="#top" class="nav-logo">
+      <img id="nav-avatar" class="nav-avatar" src="" alt="" />
+      iqad
+    </a>
+    <div class="nav-links">
+      <a href="#stack">stack</a>
+      <a href="https://discord.com/users/1024734174780862487" target="_blank" rel="noopener">discord</a>
+      <a href="https://github.com/robloxenjoyer124" target="_blank" rel="noopener">github</a>
+    </div>
+  </nav>
+
+  <!-- hero -->
+  <section class="hero" id="top">
+    <div class="hero-content">
+      <div class="avatar-wrap">
+        <div class="avatar-orbit"><span></span></div>
+        <div class="avatar-glow"></div>
+        <img id="avatar" class="avatar" src="" alt="iqad" />
+        <span class="status-dot" id="status-dot"></span>
+      </div>
+      <h1>iqad</h1>
+      <p class="subtitle">discord developer</p>
+      <span class="status-pill" id="status-pill">
+        <span class="pill-dot" id="pill-dot"></span>
+        <span id="pill-text">connecting</span>
+      </span>
+      <div class="hero-activity" id="hero-activity"></div>
+    </div>
+    <div class="scroll-indicator">
+      <span class="scroll-text">scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- stack -->
+  <section class="section" id="stack">
+    <div class="container reveal">
+      <span class="label">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        stack
+      </span>
+      <h2>tools i use</h2>
+      <div class="stack-grid">
+        <div class="stack-card reveal-child">
+          <div class="stack-icon">
+            <svg viewBox="0 0 256 255" xmlns="http://www.w3.org/2000/svg">
+              <defs><linearGradient id="py1" x1="12.96%" y1="12.04%" x2="79.64%" y2="78.01%"><stop offset="0%" stop-color="#6e6e6e"/><stop offset="100%" stop-color="#4a4a4a"/></linearGradient><linearGradient id="py2" x1="19.13%" y1="20.58%" x2="90.37%" y2="88.29%"><stop offset="0%" stop-color="#8a8a8a"/><stop offset="100%" stop-color="#5a5a5a"/></linearGradient></defs>
+              <path d="M126.916.072c-64.832 0-60.784 28.115-60.784 28.115l.072 29.128h61.868v8.745H41.631S.145 61.355.145 126.77c0 65.417 36.21 63.097 36.21 63.097h21.61v-30.356s-1.165-36.21 35.632-36.21h61.362s34.475.557 34.475-33.319V33.97S194.67.072 126.916.072zM92.802 19.66a11.12 11.12 0 0 1 11.13 11.13 11.12 11.12 0 0 1-11.13 11.13 11.12 11.12 0 0 1-11.13-11.13 11.12 11.12 0 0 1 11.13-11.13z" fill="url(#py1)"/>
+              <path d="M128.757 254.126c64.832 0 60.784-28.115 60.784-28.115l-.072-29.127H127.6v-8.746h86.441s41.486 4.705 41.486-60.712c0-65.416-36.21-63.096-36.21-63.096h-21.61v30.355s1.165 36.21-35.632 36.21h-61.362s-34.475-.557-34.475 33.32v56.013s-5.235 33.897 62.518 33.897zm34.114-19.586a11.12 11.12 0 0 1-11.13-11.13 11.12 11.12 0 0 1 11.13-11.131 11.12 11.12 0 0 1 11.13 11.13 11.12 11.12 0 0 1-11.13 11.13z" fill="url(#py2)"/>
+            </svg>
+          </div>
+          <span class="stack-name">python</span>
+          <span class="stack-desc">primary language</span>
+        </div>
+        <div class="stack-card reveal-child">
+          <div class="stack-icon">
+            <svg viewBox="0 0 256 199" xmlns="http://www.w3.org/2000/svg">
+              <path d="M216.856 16.597A208.502 208.502 0 0 0 164.042 0c-2.275 4.113-4.933 9.645-6.766 14.046-19.692-2.961-39.203-2.961-58.533 0-1.832-4.4-4.55-9.933-6.846-14.046a207.809 207.809 0 0 0-52.855 16.638C5.618 67.147-3.443 116.4 1.087 164.956c22.169 16.555 43.653 26.612 64.775 33.193a161.094 161.094 0 0 0 13.898-22.648 136.242 136.242 0 0 1-21.888-10.558c1.832-1.343 3.624-2.747 5.354-4.193 42.122 19.702 87.89 19.702 129.51 0a131.66 131.66 0 0 0 5.355 4.193 136.074 136.074 0 0 1-21.929 10.58 160.71 160.71 0 0 0 13.9 22.627c21.142-6.58 42.646-16.637 64.815-33.213 5.316-56.288-9.081-105.09-38.056-148.36zM85.474 135.095c-12.645 0-23.015-11.805-23.015-26.18s10.149-26.2 23.015-26.2c12.867 0 23.236 11.824 23.015 26.2.02 14.375-10.148 26.18-23.015 26.18zm85.051 0c-12.645 0-23.014-11.805-23.014-26.18s10.148-26.2 23.014-26.2c12.867 0 23.236 11.824 23.015 26.2 0 14.375-10.148 26.18-23.015 26.18z" fill="#888"/>
+            </svg>
+          </div>
+          <span class="stack-name">discord.py</span>
+          <span class="stack-desc">bot framework</span>
+        </div>
+        <div class="stack-card reveal-child">
+          <div class="stack-icon">
+            <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+              <rect width="256" height="256" rx="20" fill="#1a1a1a"/>
+              <path d="M67.312 213.932l19.59-11.856c3.78 6.701 7.218 12.371 15.465 12.371 7.905 0 12.89-3.092 12.89-15.12v-81.798h24.057v82.138c0 24.917-14.606 36.26-35.916 36.26-19.245 0-30.416-9.967-36.087-21.996m85.07-2.576l19.588-11.341c5.157 8.421 11.859 14.607 23.715 14.607 9.969 0 16.325-4.984 16.325-11.858 0-8.248-6.53-11.17-17.528-15.98l-6.013-2.58c-17.357-7.387-28.87-16.667-28.87-36.257 0-18.044 13.747-31.792 35.228-31.792 15.294 0 26.292 5.328 34.196 19.247l-18.732 12.03c-4.125-7.389-8.591-10.31-15.465-10.31-7.046 0-11.514 4.468-11.514 10.31 0 7.217 4.468 10.14 14.778 14.608l6.014 2.577c20.45 8.765 31.963 17.7 31.963 37.804 0 21.654-17.012 33.51-39.867 33.51-22.339 0-36.774-10.654-43.819-24.594" fill="#777"/>
+            </svg>
+          </div>
+          <span class="stack-name">javascript</span>
+          <span class="stack-desc">web & scripting</span>
+        </div>
+        <div class="stack-card reveal-child">
+          <div class="stack-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="12" cy="5" rx="9" ry="3"/>
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+            </svg>
+          </div>
+          <span class="stack-name">databases</span>
+          <span class="stack-desc">sqlite & mongo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="https://discord.com/users/1024734174780862487" target="_blank" rel="noopener" aria-label="Discord">
+          <svg width="22" height="22" viewBox="0 0 127.14 96.36" fill="currentColor">
+            <path d="M107.7 8.07A105.15 105.15 0 0 0 81.47 0a72.06 72.06 0 0 0-3.36 6.83 97.68 97.68 0 0 0-29.11 0A72.37 72.37 0 0 0 45.64 0a105.89 105.89 0 0 0-26.25 8.09C2.79 32.65-1.71 56.6.54 80.21a105.73 105.73 0 0 0 32.17 16.15 77.7 77.7 0 0 0 6.89-11.11 68.42 68.42 0 0 1-10.85-5.18c.91-.66 1.8-1.34 2.66-2.03a75.57 75.57 0 0 0 64.32 0c.87.71 1.76 1.39 2.66 2.03a68.68 68.68 0 0 1-10.87 5.19 77.21 77.21 0 0 0 6.89 11.1 105.25 105.25 0 0 0 32.19-16.14c2.64-27.38-4.51-51.11-18.9-72.15zM42.45 65.69C36.18 65.69 31 60 31 53.05s4.98-12.68 11.45-12.68c6.48 0 11.65 5.71 11.45 12.68 0 6.95-4.99 12.64-11.45 12.64zm42.24 0C78.41 65.69 73.25 60 73.25 53.05s4.98-12.68 11.44-12.68c6.47 0 11.65 5.71 11.45 12.68 0 6.95-4.98 12.64-11.45 12.64z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/robloxenjoyer124" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+          </svg>
+        </a>
+      </div>
+      <span class="footer-copy">iqad · <span id="year"></span></span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    /* ══ STARFIELD ════════════════════════════ */
+    const canvas = document.getElementById('stars');
+    const ctx = canvas.getContext('2d');
+    let W, H;
+    function resize() { W = canvas.width = window.innerWidth; H = canvas.height = document.documentElement.scrollHeight; }
+    resize(); window.addEventListener('resize', resize);
+
+    const stars = [];
+    for (let i = 0; i < 200; i++) {
+      stars.push({
+        x: Math.random() * W, y: Math.random() * H,
+        r: Math.random() * 1.4 + 0.3,
+        baseAlpha: Math.random() * 0.6 + 0.1,
+        speed: Math.random() * 0.02 + 0.005,
+        offset: Math.random() * Math.PI * 2
+      });
+    }
+
+    const shooters = [];
+    function spawnShooter() {
+      shooters.push({
+        x: Math.random() * W * 0.8, y: Math.random() * H * 0.4,
+        len: Math.random() * 80 + 40, speed: Math.random() * 6 + 4,
+        angle: Math.PI / 4 + (Math.random() - 0.5) * 0.3,
+        alpha: 1, decay: Math.random() * 0.015 + 0.01
+      });
+    }
+
+    let t = 0;
+    function draw() {
+      ctx.clearRect(0, 0, W, H); t++;
+      for (const s of stars) {
+        const a = s.baseAlpha + Math.sin(t * s.speed + s.offset) * 0.15;
+        ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(255,255,255,' + Math.max(0.02, a) + ')'; ctx.fill();
+      }
+      for (let i = shooters.length - 1; i >= 0; i--) {
+        const s = shooters[i];
+        const ex = s.x - Math.cos(s.angle) * s.len, ey = s.y - Math.sin(s.angle) * s.len;
+        const g = ctx.createLinearGradient(s.x, s.y, ex, ey);
+        g.addColorStop(0, 'rgba(255,255,255,' + s.alpha + ')');
+        g.addColorStop(1, 'rgba(255,255,255,0)');
+        ctx.beginPath(); ctx.moveTo(s.x, s.y); ctx.lineTo(ex, ey);
+        ctx.strokeStyle = g; ctx.lineWidth = 1.2; ctx.stroke();
+        ctx.beginPath(); ctx.arc(s.x, s.y, 1.5, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(255,255,255,' + s.alpha + ')'; ctx.fill();
+        s.x += Math.cos(s.angle) * s.speed; s.y += Math.sin(s.angle) * s.speed;
+        s.alpha -= s.decay;
+        if (s.alpha <= 0 || s.x > W + 100 || s.y > H + 100) shooters.splice(i, 1);
+      }
+      if (Math.random() < 0.006) spawnShooter();
+      requestAnimationFrame(draw);
+    }
+    draw();
+
+    /* ══ SCROLL / NAV ════════════════════════ */
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          e.target.querySelectorAll('.reveal-child').forEach((c, i) => {
+            c.style.transitionDelay = (i * 90) + 'ms'; c.classList.add('visible');
+          });
+          obs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+    window.addEventListener('scroll', () => document.querySelector('nav').classList.toggle('scrolled', scrollY > 50), { passive: true });
+
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(a.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    document.querySelectorAll('.stack-card').forEach(c => {
+      c.addEventListener('mousemove', e => {
+        const r = c.getBoundingClientRect();
+        const x = ((e.clientX - r.left) / r.width - .5) * 12;
+        const y = ((e.clientY - r.top) / r.height - .5) * -12;
+        c.style.transform = 'perspective(500px) rotateY('+x+'deg) rotateX('+y+'deg) translateY(-4px)';
+      });
+      c.addEventListener('mouseleave', () => {
+        c.style.transform = '';
+        c.style.transition = 'transform 0.4s ease, border-color 0.3s, box-shadow 0.3s';
+        setTimeout(() => c.style.transition = '', 400);
+      });
+    });
+
+    /* ══ LANYARD WEBSOCKET ═══════════════════ */
+    const DISCORD_ID = '1024734174780862487';
+    const CDN = 'https://cdn.discordapp.com';
+    const SC = { online:'#43b581', idle:'#faa61a', dnd:'#f04747', offline:'#747f8d' };
+    const SL = { online:'online', idle:'idle', dnd:'do not disturb', offline:'offline' };
+    let hb = null;
+
+    function connect() {
+      const ws = new WebSocket('wss://api.lanyard.rest/socket');
+      ws.onmessage = ev => {
+        const m = JSON.parse(ev.data);
+        if (m.op === 1) {
+          if (hb) clearInterval(hb);
+          hb = setInterval(() => ws.send('{"op":3}'), m.d.heartbeat_interval);
+          ws.send(JSON.stringify({ op: 2, d: { subscribe_to_id: DISCORD_ID } }));
+        }
+        if (m.op === 0) update(m.d);
+      };
+      ws.onclose = () => { clearInterval(hb); setTimeout(connect, 3000); };
+      ws.onerror = () => ws.close();
+    }
+
+    function update(data) {
+      const u = data.discord_user, st = data.discord_status || 'offline';
+      const c = SC[st] || SC.offline;
+      const url = CDN + '/avatars/' + DISCORD_ID + '/' + u.avatar + '?size=256';
+
+      // hero avatar
+      const av = document.getElementById('avatar');
+      if (!av.src.includes(u.avatar)) { av.src = url; av.onload = () => av.classList.add('loaded'); }
+
+      // nav avatar
+      const navAv = document.getElementById('nav-avatar');
+      if (!navAv.src.includes(u.avatar)) { navAv.src = url; navAv.onload = () => navAv.classList.add('loaded'); }
+
+      document.getElementById('status-dot').style.background = c;
+      document.getElementById('status-dot').classList.add('active');
+      document.getElementById('pill-dot').style.background = c;
+      document.getElementById('pill-text').textContent = SL[st] || 'offline';
+
+      renderAct(data);
+    }
+
+    function renderAct(data) {
+      const box = document.getElementById('hero-activity');
+      box.innerHTML = '';
+
+      if (data.listening_to_spotify && data.spotify) {
+        const sp = data.spotify, el = document.createElement('div');
+        el.className = 'hero-act spotify';
+        el.innerHTML =
+          '<img src="' + esc(sp.album_art_url) + '" class="hero-act-img" />' +
+          '<div class="hero-act-info">' +
+            '<span class="hero-act-label"><svg width="12" height="12" viewBox="0 0 24 24" fill="#1db954"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg> listening to spotify</span>' +
+            '<span class="hero-act-name">' + esc(sp.song) + '</span>' +
+            '<span class="hero-act-detail">' + esc(sp.artist) + '</span>' +
+          '</div>';
+        box.appendChild(el); box.style.display = 'flex'; return;
+      }
+
+      if (data.activities) {
+        for (const act of data.activities) {
+          if (act.type === 4 || act.type === 2) continue;
+          const el = document.createElement('div'); el.className = 'hero-act';
+          let h = ''; const img = resolveImg(act);
+          if (img) h += '<img src="' + esc(img) + '" class="hero-act-img" />';
+          h += '<div class="hero-act-info"><span class="hero-act-label">playing</span>';
+          h += '<span class="hero-act-name">' + esc(act.name) + '</span>';
+          if (act.details) h += '<span class="hero-act-detail">' + esc(act.details) + '</span>';
+          h += '</div>'; el.innerHTML = h;
+          box.appendChild(el); box.style.display = 'flex'; return;
+        }
+      }
+      box.style.display = 'none';
+    }
+
+    function resolveImg(a) {
+      if (!a.assets || !a.assets.large_image) return null;
+      const i = a.assets.large_image;
+      if (i.startsWith('mp:external/')) return 'https://media.discordapp.net/external/' + i.slice(12);
+      if (i.startsWith('spotify:')) return 'https://i.scdn.co/image/' + i.slice(8);
+      if (a.application_id) return CDN + '/app-assets/' + a.application_id + '/' + i + '.png';
+      return null;
+    }
+    function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+    connect();
+  </script>
+</body>
+</html>
